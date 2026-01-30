@@ -1,0 +1,10 @@
+.containter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+menu {
+    display: flex;
+    list-style: none;
+}
