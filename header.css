@@ -26,6 +26,12 @@ menu li {
     padding: .25rem;
 }
 
+menu li:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    cursor: pointer;
+}
+
 menu li:not(:last-child) {
     border-right: 1px solid white;
 }
@@ -82,4 +88,18 @@ input {
 
 h1 {
     color: rgb(83, 83, 207);
+}
+
+.ad {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    padding: .7rem;
+    flex-shrink: 0;
+}
+
+.ad:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
