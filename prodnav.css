@@ -1,21 +1,29 @@
 .prodtype {
     display: flex;
     flex-direction: column;
-    background-color: rgb(83, 83, 207);
-    gap: .25ch;
+    gap: .25rem;
     width: 10%;
     font-size: 1em;
     font-weight: bold;
     text-decoration: none;
     color: white;
+    padding: .5rem;
+    min-width: 20ch;
 }
 
 .prodtype a {
-    text-decoration: none;
+    text-decoration: unset;
     color: white;
+    background-color: rgb(83, 83, 207);
+    padding: .5rem;
 }
 
-.prodtype:hover {
-    text-decoration: underline;
+.prodtype a:hover {
+    text-decoration: unset;
     cursor: pointer;
+    background-color: rgb(51, 51, 121);
+}
+
+.page-container {
+    margin: 0 12em 0 12em;
 }

@@ -1,0 +1,27 @@
+.page-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+}
+
+.product p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.material-symbols-sharp {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
