@@ -40,7 +40,7 @@ menu li:hover {
     cursor: pointer;
 }
 
-menu li:not(:last-child) {
+header menu li:not(:last-child) {
     border-right: 1px solid white;
 }
 
