@@ -1,15 +1,12 @@
 .page-container {
     display: flex;
-    flex-direction: row;
     margin-left: 10em;
-    width: 100%;
+    width: 75%;
 }
 
 .products {
     display: flex;
-    flex-direction: row;
-    gap: 2em;
-    width: 20%;
+    gap: 1em;
     flex-wrap: wrap;
 }
 
