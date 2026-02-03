@@ -1,7 +1,7 @@
 @media (width <= 700px) {
     .prodtype {
         display: flex;
-        flex-grow: 1;
+        min-width: 100%;
     }
 }
 
@@ -15,6 +15,7 @@
     text-decoration: none;
     color: white;
     padding: .5rem;
+    width: 100%;
     min-width: 20ch;
 }
 
