@@ -1,8 +1,15 @@
+@media (width <= 700px) {
+    .prodtype {
+        display: flex;
+        flex-grow: 1;
+    }
+}
+
 .prodtype {
     display: flex;
     flex-direction: column;
     gap: .25rem;
-    width: 10%;
+    width: 10vw;
     font-size: 1em;
     font-weight: bold;
     text-decoration: none;

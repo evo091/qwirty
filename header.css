@@ -1,8 +1,32 @@
-@media (width <= 600px) {
+@media (width <= 700px) {
     menu {
         display:flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+    }
+    .bottom-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        gap: .25rem;
+        padding: .25rem;
+        flex-wrap: wrap;
+    }
+    .bottom-container h1 {
+        display: flex;
+        justify-content: center;
+    }
+    form {
+    display: flex;
+    margin: auto;
+    flex-grow: 1;
+    }
+    .ad {
+        display: flex;
+        margin: auto;
+        flex-grow: 1;
+        justify-content: center;
     }
 }
 
@@ -12,7 +36,7 @@
     justify-content: space-between;
     background-color: rgb(83, 83, 207);
     padding: 0;
-    margin: 0;
+    margin: auto;
     font-size: .8rem;
     height: 2.5rem
 }
@@ -20,9 +44,12 @@
 menu {
     display: flex;
     list-style: none;
+    flex: 1;
     align-items: center;
-    padding: .25rem;
-    margin: .5rem 10rem .5rem 10rem;
+    padding: minmax(.25rem, .5rem);
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
 }
 
 menu li a {
@@ -65,8 +92,8 @@ header menu li:not(:last-child) {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 2ch;
-    margin: 0 15em 0 15em;
+    gap: 2rem;
+    margin: auto;
     height: 5rem;
     font-size: .9rem;
 }
@@ -76,7 +103,6 @@ form {
     flex-direction: row;
     width: 50%;
     margin-top: 1rem;
-    flex: 1;
 }
 
 input {
